@@ -1,0 +1,11 @@
+Name, Type, Description, Address, Rating, Best Weather, Distance from University
+"Pittsburgh Zoo & PPG Aquarium", "Zoo/Aquarium", "Diverse collection of animals and aquatic life.", "7370 Baker St, Pittsburgh, PA 15206", 4.5, "Spring/Summer", "6 miles"
+"Phipps Conservatory and Botanical Gardens", "Botanical Garden", "Historic greenhouse with diverse plant life.", "1 Schenley Drive, Pittsburgh, PA 15213", 4.7, "Spring/Fall", "0.5 miles"
+"Carnegie Museum of Natural History", "Museum", "Renowned museum with extensive natural history exhibits.", "4400 Forbes Ave, Pittsburgh, PA 15213", 4.6, "All Year", "0.3 miles"
+"The Andy Warhol Museum", "Museum", "Museum dedicated to the works of Andy Warhol.", "117 Sandusky St, Pittsburgh, PA 15212", 4.4, "All Year", "2.5 miles"
+"Point State Park", "Park", "Historic park at the confluence of rivers, with a fountain.", "601 Commonwealth Pl, Pittsburgh, PA 15222", 4.3, "Summer", "2.7 miles"
+"Duquesne Incline", "Historic Site", "Historic cable car offering city views.", "1197 W Carson St, Pittsburgh, PA 15219", 4.5, "Spring/Summer", "3.2 miles"
+"Heinz Field", "Stadium", "Home of the Pittsburgh Steelers, with tours available.", "100 Art Rooney Ave, Pittsburgh, PA 15212", 4.7, "Fall (Football Season)", "3.5 miles"
+"Carnegie Science Center", "Museum/Science Center", "Interactive exhibits for science enthusiasts.", "1 Allegheny Ave, Pittsburgh, PA 15212", 4.6, "All Year", "2.8 miles"
+"Strip District", "Neighborhood", "Vibrant area known for food, shopping, and nightlife.", "Pittsburgh, PA 15222", 4.4, "Spring/Summer", "2.4 miles"
+"Frick Art & Historical Center", "Museum/Historical Site", "Art museum and historical center with diverse collections.", "7227 Reynolds St, Pittsburgh, PA 15208", 4.3, "All Year", "4 miles"
