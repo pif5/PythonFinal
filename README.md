@@ -67,3 +67,6 @@ def read_excel_file(file_path):
         latitude = row['Location']
         longitude = row['NumberOfVisitors']
         return national_parks
+
+# How to work on your own PC/local environment?
+# See this link: https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/

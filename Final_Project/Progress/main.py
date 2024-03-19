@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 class NationalPark: 
     def init(self, id, name, longitude, latitude): 
         self.id = id 
