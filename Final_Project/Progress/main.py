@@ -57,6 +57,10 @@ def print_park_info(national_parks):
     for park in national_parks:
         print(f"Name: {park.name}, Location: {park.location}, Visitors: {park.visitors}")
 
-file_path = '/Users/tr1ee/PythonFinal/Final_Project/Progress/National_Parks_Visitors.xlsx'
-national_parks = read_excel_file(file_path)
-print_park_info(national_parks)
+
+#run when directly executed
+if __name__ == '__main__':
+    # Execute when the module is not initialized from an import statement. 
+    file_path = '/Users/tr1ee/PythonFinal/Final_Project/Progress/National_Parks_Visitors.xlsx'
+    national_parks = read_excel_file(file_path)
+    print_park_info(national_parks)
