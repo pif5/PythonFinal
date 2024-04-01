@@ -20,11 +20,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    # Adjust the file path as necessary
     file_path = '/Users/tr1ee/PythonFinal/Final_Project/Progress/National_Parks_Visitors.xlsx'
     national_parks = read_excel_file(file_path)
 
-    # Format the output for HTML
     parks_info_html = "<h1>National Parks</h1>"
     for park in national_parks:
         parks_info_html += f"<p><strong>Name:</strong> {park.name}, <strong>Location:</strong> {park.location}, <strong>Visitors:</strong> {park.visitors}</p>"
