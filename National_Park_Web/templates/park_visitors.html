@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visitors Information for {{ park['name'] }}</title>
+</head>
+<body>
+    <h1>Number of visitors in 2023 of {{ park['name'] }}</h1>
+    <p>{{ park['visitors'] }}</p>
+    <p><a href="{{ url_for('park_details', park_name=park['name']) }}">Back to Details</a></p>
+</body>
+</html>

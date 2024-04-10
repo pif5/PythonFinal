@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Parks</title>
+</head>
+<body>
+    <h1>National Parks</h1>
+    <ul>
+        {% for park in parks %}
+            <li><a href="{{ url_for('park_details', park_name=park['name']) }}">{{ park['name'] }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

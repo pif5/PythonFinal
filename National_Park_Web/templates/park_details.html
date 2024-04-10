@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ park['name'] }}</title>
+</head>
+<body>
+    <h1>{{ park['name'] }}</h1>
+    <ul>
+        <li><a href="{{ url_for('park_location', park_name=park_name) }}">Location</a></li>
+        <li><a href="{{ url_for('park_visitors', park_name=park['name']) }}">Visitors</a></li>
+        <li><a href="{{ url_for('park_climate', park_name=park['name']) }}">Cliamte</a></li>
+        <li><a href="{{ url_for('park_expense', park_name=park['name']) }}">Expense</a></li>
+        <li><a href="{{ url_for('park_temperature', park_name=park['name']) }}">Temperature</a></li>
+        <li><a href="{{ url_for('park_terrain', park_name=park['name']) }}">Terrain</a></li>
+    </ul>
+    <p><a href="/">Back to Home</a></p>
+</body>
+</html>
