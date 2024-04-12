@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Top 15 National Parks in United State</h1>
+        <img src= "/static/home.jpeg ">
     <ul>
         {% for park in parks %}
             <li><a href="{{ url_for('park_details', park_name=park['name']) }}">{{ park['name'] }}</a></li>
