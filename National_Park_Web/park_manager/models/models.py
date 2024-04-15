@@ -6,7 +6,7 @@ parks_data = [
         'visitors': '3.8 million',
         'climate': 'Temperate',
         'temperature': {
-            'spring': '45°F	Cloudy',
+            'spring': '45°F Cloudy',
             'summer': '70°F	Sunny',
             'fall': '55°F Rainy',
             'winter': '35°F	Snowy',
