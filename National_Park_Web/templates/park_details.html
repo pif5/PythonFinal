@@ -6,6 +6,7 @@
 </head>
 <body>
     <h1>{{ park['name'] }}</h1>
+    <img src="{{ url_for('static', filename=park['image']) }}" alt="Image of {{ park['name'] }}">
     <ul>
         <li><a href="{{ url_for('park_location', park_name=park_name) }}">Location</a></li>
         <li><a href="{{ url_for('park_visitors', park_name=park['name']) }}">Visitors</a></li>

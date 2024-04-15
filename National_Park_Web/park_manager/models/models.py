@@ -2,6 +2,7 @@ parks_data = [
     {
         'name': 'Acadia National Park',
         'location': 'Maine',
+        'image':'/images/acadia.jpeg',
         'visitors': '3.8 million',
         'climate': 'Temperate',
         'temperature': {
@@ -19,6 +20,7 @@ parks_data = [
     {
         'name': 'Crater Lake National Park',
         'location': 'Oregon',
+        'image':'/images/carter.jpeg',
         'visitors': '559,976',
         'climate': 'Temperate',
         'temperature': {
@@ -36,6 +38,7 @@ parks_data = [
     {
         'name': 'Glacier National Park',
         'location': 'Montana',
+        'image':'/images/glacier.jpeg',
         'visitors': 'Nearly 3 million',
         'climate': 'Continental',
         'temperature': {
@@ -53,6 +56,7 @@ parks_data = [
     {
         'name': 'Shenandoah National Park',
         'location': 'Virginia',
+        'image':'/images/shenandoah.jpeg',
         'visitors': '1.4 million',
         'climate': 'Temperate',
         'temperature': {
@@ -70,6 +74,7 @@ parks_data = [
     {
         'name': 'Great Smoky Mountains National Park',
         'location': 'Tennessee and North Carolina',
+        'image':'/images/great_somky.jpeg',
         'visitors': '13.3 million',
         'climate': 'Temperate',
         'temperature': {
@@ -87,6 +92,7 @@ parks_data = [
     {
         'name': 'New River Gorge National Park Preserve',
         'location': 'West Virginia',
+        'image':'/images/new_river.webp',
         'visitors': '1,709,623',
         'climate': 'Temperate',
         'temperature': {
@@ -104,6 +110,7 @@ parks_data = [
     {
         'name': 'Grand Teton National Park',
         'location': 'Wyoming',
+        'image':'/images/grand.jpeg',
         'visitors': '3,417,106',
         'climate': 'Continental',
         'temperature': {
@@ -121,6 +128,7 @@ parks_data = [
     {
         'name': 'Mount Rainier National Park',
         'location': 'Washington',
+        'image':'/images/mount.png',
         'visitors': '1.67 million',
         'climate': 'Temperate',
         'temperature': {
@@ -138,6 +146,7 @@ parks_data = [
     {
         'name': 'Glacier Bay National Park and Preserve',
         'location': 'Alaska',
+        'image':'/images/glacier_bay.jpeg',
         'visitors': '703,659',
         'climate': 'Temperate',
         'temperature': {
@@ -155,6 +164,7 @@ parks_data = [
     {
         'name': 'Black Canyon of the Gunnison National Park',
         'location': 'Colorado',
+        'image':'/images/black_canyon.png',
         'visitors': '357,069',
         'climate': 'Temperate',
         'temperature': {
@@ -172,6 +182,7 @@ parks_data = [
     {
         'name': 'Capitol Reef National Park',
         'location': 'Utah',
+        'image':'/images/capitol.jpeg',
         'visitors': 'Nearly 1.2 million',
         'climate': 'Continental',
         'temperature': {
@@ -189,6 +200,7 @@ parks_data = [
     {
         'name': 'Saguaro National Park',
         'location': 'Arizona',
+        'image':'/images/saguaro.jpeg',
         'visitors': '908,000',
         'climate': 'Arid',
         'temperature': {
@@ -206,6 +218,7 @@ parks_data = [
     {
         'name': 'Olympic National Park',
         'location': 'Washington',
+        'image':'/images/olympic.webp',
         'visitors': '2.9 million',
         'climate': 'Temperate',
         'temperature': {
@@ -223,6 +236,7 @@ parks_data = [
     {
         'name': 'Theodore Roosevelt National Park',
         'location': 'North Dakota',
+        'image':'/images/theodore.webp',
         'visitors': 'Nearly 600,000',
         'climate': 'Continental',
         'temperature': {
@@ -237,7 +251,6 @@ parks_data = [
         },
         'terrain': 'Plains',
     },
-    # Add additional parks here
 ]
 
 def get_all_parks():
